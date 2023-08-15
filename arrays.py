@@ -237,3 +237,12 @@ divides_true = [i*43 for i in range(math.floor(10000 / 43))]
 [n for n in divides_true if str(n)[0] == str(n)[-1]] 
 # remember that -1 counts as the final index
 
+# another version:
+
+mirrors = []
+for i in range(233):
+    index = str(i*43)
+    if index[0] == index[-1]:
+        mirrors.append(index)
+
+print(mirrors)
