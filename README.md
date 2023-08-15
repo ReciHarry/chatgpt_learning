@@ -1,6 +1,6 @@
 # Using ChatGPT to create a brief learning curriculum
 
-I am experimenting with different methods to generate linear educational progressions within my coding, as I've been struggling with direction lately.
+I am experimenting with different methods to generate linear educational progressions within my coding.
 
 ## Goals
 
