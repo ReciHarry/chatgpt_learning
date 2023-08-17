@@ -239,8 +239,9 @@ divides_true = [i*43 for i in range(math.floor(10000 / 43))]
 
 # another version:
 
+run_instances = int(10000 / 43) + 1
 mirrors = []
-for i in range(233):
+for i in range(1, run_instances):
     index = str(i*43)
     if index[0] == index[-1]:
         mirrors.append(index)
