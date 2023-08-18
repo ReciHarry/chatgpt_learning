@@ -188,8 +188,8 @@ plt.ylabel("Accumulated Amount")
 plt.title("Smoothed Linear Compound Interest Growth with Random Spikes")
 plt.legend()
 
-for i, values in enumerate([smoothed_decreasing_values, smoothed_increasing_values]):
-    plt.annotate(f"Start: {values[0]:.2f}", (0, values[0]), textcoords="offset points", xytext=(0,0), ha='center')
-    plt.annotate(f"End: {values[-1]:.2f}", (periods, values[-1]), textcoords="offset points", xytext=(-10,10), ha='center')
+plt.annotate(f"Start: {decreasing_values_with_spikes[0]:.2f}", (0, decreasing_values_with_spikes[0]), textcoords="offset points", xytext=(0,0), ha='center')
+plt.annotate(f"End: {decreasing_values_with_spikes[-1]:.2f}", (periods, decreasing_values_with_spikes[-1]), textcoords="offset points", xytext=(-10,10), ha='center')
+plt.annotate(f"End: {increasing_values_with_spikes[-1]:.2f}", (periods, increasing_values_with_spikes[-1]), textcoords="offset points", xytext=(-20,-10), ha='center')
 
 plt.show()
