@@ -15,6 +15,8 @@ Arrays: Learn how to efficiently organize and manipulate collections of related 
 
 Functions: Learn how to define and use functions to modularize your code and make it more organized and reusable.
 
+Visual Representation: Acquire proficiency in harnessing graphical elements as instruments for conveying information. Further delve into the diverse applications and enhanced capabilities offered by graphs in data presentation and exploration.
+
 Control Structures: Explore concepts like loops (for and while) and conditional statements (if, else, elif) to control the flow of your programs.
 
 Data Structures: Move beyond arrays to explore more advanced data structures like lists, dictionaries, sets, and tuples. Understand their properties and use cases.
