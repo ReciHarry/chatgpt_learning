@@ -21,6 +21,8 @@ Control Structures: Explore concepts like loops (for and while) and conditional 
 
 Data Structures: Move beyond arrays to explore more advanced data structures like lists, dictionaries, sets, and tuples. Understand their properties and use cases.
 
+List Operations and Iterables: Gaining further understanding with list operations and iterables - exercises containing code that must be converted.
+
 Object-Oriented Programming (OOP): Dive into the world of OOP, including classes, objects, inheritance, encapsulation, and polymorphism. This approach is crucial for building complex applications.
 
 File Handling: Learn how to read from and write to files, which is important for tasks like data persistence and configuration management.
